@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/addons/p5.sound.min.js"></script>
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+    <main>
+
+      <h1 style=" 
+        text-align: center;
+        background-color: rgb(93, 7, 13);
+        color: rgb(157, 191, 242);
+        font-size: 80px;
+        opacity: 100%;
+        margin-top: 0px;
+        margin-bottom: 10px;"> 
+        Eductaed Voting
+      </h1>
+
+      <div class="container">
+        <button class="button" > <a href="index.html" style="color: rgb(93, 7, 13); text-decoration: none;">
+          <b> Home </b>
+        </a> </button>
+        
+        <button class="button" > <a href="Maps.html" style="color: rgb(93, 7, 13); text-decoration: none;">
+          <b> Maps </b>
+        </a> </button>
+  
+        <button class="button" > <a href="interviews.html" style="color: rgb(93, 7, 13); text-decoration: none;">
+          <b> Interviews </b>
+        </a> </button>
+      </div>
+
+      <div class="container">
+        <button class="button2"> <a href="VoterMap.html" style="color: rgb(93, 7, 13); text-decoration: none;">
+          Voter Map
+        </a>
+        </button>
+        <button class="button2"> <a href="EducationMap.html" style="color: rgb(93, 7, 13); text-decoration: none;">
+          Education Map
+        </a>
+        </button>
+      </div>
+      
+       <div style=" 
+       display: block;
+       margin: auto;
+       margin-bottom: 50px;"
+       id="map"></div>
+
+       <p style="
+        text-align: left;
+        color: rgb(93, 7, 13);
+        font-size: 20px;
+        padding-left: 100px;
+        padding-right: 100px;">
+        
+        I would have liked to add interactivity to these maps to show each 
+        percentage individually, but unfortunately I struggled figuring out 
+        how to do it. I would like to work on this more in the future, so I 
+        plan to not only add interactivity, but also cover more education data 
+        and find a way to show both datasets together. 
+        
+        <br>
+        <br>
+
+        This is a work in progress.
+
+        </p>
+
+       <div style="
+        background-color: rgb(93, 7, 13);
+        color: rgb(157, 191, 242);
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 0;">
+          Contact <b> info@eductaedvoting.com </b> for more information
+      </div>
+
+    </main>
+    <!-- <script src="EducationMapData.js"></script>
+    <script src="educationMap.js"></script> -->
+    <!-- <script src="VoterMapData.js"></script>
+    <script src="sketch.js"></script> -->
+    <script src="plainMap.js"></script>
+    
+    
+    
+  </body>
+</html>
